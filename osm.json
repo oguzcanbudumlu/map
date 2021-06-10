@@ -1,0 +1,32 @@
+{
+  "version": 8,
+  "name": "OepnStreetMap",
+  "metadata": {},
+  "center": [
+    37.49,
+    35.652
+  ],
+  "zoom": 6,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "osm": {
+      "type": "raster",
+      "tiles": [
+        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+      ],
+      "minzoom": 0,
+      "maxzoom": 21,
+      "tileSize": 256
+    }
+    
+  },
+  "layers": [
+    {
+      "id": "osm",
+      "type": "raster",
+      "source": "osm"
+    }
+      ],
+  "id": "osm"
+}
